@@ -34,7 +34,7 @@ jobs:
       - run: echo from print_world
       
 workflows:      
-  my_workflow:
+  share_workspace:
     jobs:
       - save_hello_world_output
       - print_output_file:
