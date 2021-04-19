@@ -18,9 +18,6 @@ jobs:
       - run: echo from print_world
       
 workflows:      
-  test-env-vars:
-    jobs:
-      - build
   # Name the workflow "welcome"
   welcome:
     # Run the welcome/run job in its own container
